@@ -12,7 +12,7 @@ public class ExceptionDemo
 		   c=a/b;
 		   System.out.println(c);
 	  }
-	  catch(ArithmeticException e)
+	  catch(Exception e)
 	  {
 		  System.out.println("Can't divide by zero");
 	  }
